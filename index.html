@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Adventures</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="navbar">
+    <div class="logo">
+        <img src="src/Header_Logo.svg" alt="logo" />
+    </div>
+    <nav>
+        <a href="#" class="active">Home</a>
+        <a href="#">Story</a>
+        <a href="#">Gallery</a>
+        <a href="#">Contact Us</a>
+        <img src="/src/Separator.svg" alt="separator" class="separator" />
+        <img src="src/Header Search Icon.svg" alt="search" class="icon" />
+        <img src="src/Header Profile.svg" alt="profile" class="icon" />
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+        <h1><span>Let’s talk</span> about your next trip!</h1>
+        <p>Share your favorite travel destination, and we will feature it in our next blog!</p>
+        <div class="hero-buttons">
+            <button class="btn-primary">Share your story</button>
+            <button class="btn-secondary">
+                <img src="src/Play.svg" alt="play" />
+                Watch highlights
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- FEATURED DESTINATION -->
+<section class="featured-destination">
+    <div class="featured-container">
+        <div class="featured-image">
+            <img src="src/human%20on%20mount.jpg" alt="Switzerland" />
+        </div>
+        <div class="featured-content">
+            <p class="featured-subtitle">FEATURED DESTINATION</p>
+            <h2 class="featured-title">Our swiss adventure blog</h2>
+            <p class="featured-text">
+                Visiting the swiss alps? Want to know the requirements on travelling to Switzerland during the pandemic? Our blog might help!
+            </p>
+            <div class="featured-action">
+                <button class="featured-btn"><img src="/src/Play%20Featured.svg" alt = "play"></button>
+                <span>Watch Now</span>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- DISCOVER -->
+<section class="discover">
+    <h3>Join our adventures</h3>
+    <h2>Discover the world with us</h2>
+
+    <div class="discover-grid">
+        <div class="discover-card">
+            <div class="image-wrapper">
+                <img src="src/river.jpg" alt="Iceland">
+            </div>
+            <h4>Iceland</h4>
+            <a href="#">Discover</a>
+        </div>
+
+        <div class="discover-card">
+            <div class="image-wrapper">
+                <img src="src/forest.jpg" alt="Italy">
+            </div>
+            <h4>Italy</h4>
+            <a href="#">Discover</a>
+        </div>
+
+        <div class="discover-card">
+            <div class="image-wrapper">
+                <img src="src/dubai.jpg" alt="Dubai">
+            </div>
+            <h4>Dubai</h4>
+            <a href="#">Discover</a>
+        </div>
+
+        <div class="discover-card">
+            <div class="image-wrapper">
+                <img src="src/ice%20ice%20baby.jpg" alt="Patagonia">
+            </div>
+            <h4>Patagonia</h4>
+            <a href="#">Discover</a>
+        </div>
+    </div>
+</section>
+
+
+<!-- JOIN -->
+<section class="join-section">
+    <div class="join-bg"></div> <!-- фон (оставь, если используется) -->
+
+    <div class="join-wrapper">
+        <h4 class="join-kicker">LET’S BUILD A COMMUNITY</h4>
+        <h2 class="join-title">Join our next destination</h2>
+
+        <div class="join-card" role="region" aria-labelledby="join-heading">
+            <div class="join-card-inner">
+                <h3 id="join-heading">Share your travels</h3>
+                <p class="join-desc">
+                    Suggest a new travel destination that you want to see, and we will feature it in our blog.
+                </p>
+
+                <form class="join-form" action="#" method="post">
+                    <label class="visually-hidden" for="destination">Destination name</label>
+                    <input id="destination" name="destination" type="text" placeholder="Destination name" required>
+
+                    <label class="visually-hidden" for="country">Country of Destination</label>
+                    <select id="country" name="country" required>
+                        <option value="">Country of Destination</option>
+                        <option>Switzerland</option>
+                        <option>Italy</option>
+                        <option>Norway</option>
+                        <option>Japan</option>
+                    </select>
+
+                    <label class="visually-hidden" for="yourname">Your name</label>
+                    <input id="yourname" name="yourname" type="text" placeholder="Your name" required>
+
+                    <label class="visually-hidden" for="category">Shooting category</label>
+                    <select id="category" name="category" required>
+                        <option value="">Shooting category</option>
+                        <option>Landscape</option>
+                        <option>Portrait</option>
+                        <option>Urban</option>
+                        <option>Wildlife</option>
+                    </select>
+
+                    <label class="visually-hidden" for="notes">Describe photos</label>
+                    <textarea id="notes" name="notes" placeholder="Describe what kind of photos you want to focus on" rows="4"></textarea>
+
+                    <button type="submit" class="btn-submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- RECENT POSTS -->
+<section class="recent-section">
+    <div class="recent-header">
+        <span>CATCH UP TO OUR POSTS</span>
+        <h2>Recent story entries</h2>
+    </div>
+
+    <div class="recent-content">
+        <!-- Большая карточка -->
+        <div class="main-post">
+            <img src="src/switzerland.jpg" alt="Zermatt, Switzerland" />
+            <div class="main-post-info">
+                <h3>Zermatt, Switzerland</h3>
+                <p>
+                    Marvel on the beauty of the iconic Matterhorn. Find the best places to
+                    stay that has the best views of this peak...
+                </p>
+                <button class="play-btn">
+                    <img src="src/Play%20Featured.svg" alt="play" />
+                </button>
+            </div>
+        </div>
+
+        <!-- Правая колонка -->
+        <div class="side-posts">
+            <div class="side-post">
+                <img src="src/italy.jpg" alt="Tuscany, Italy" />
+                <div class="side-text">
+                    <h4>Tuscany, Italy</h4>
+                    <p>
+                        The amazing Tuscany is home to famous Renaissance art and
+                        architecture and a vast scenic landscape.
+                        <a href="#">view full blog...</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="side-post">
+                <img src="src/Tokyo.jpg" alt="Kyoto, Japan" />
+                <div class="side-text">
+                    <h4>Kyoto, Japan</h4>
+                    <p>
+                        Kyoto is well known for its temples, gardens, and wooden houses.
+                        It’s time to visit Tokyo. <a href="#">view full blog...</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="side-post">
+                <img src="src/lofoten.jpg" alt="Lofoten Islands, Norway" />
+                <div class="side-text">
+                    <h4>Lofoten Islands, Norway</h4>
+                    <p>
+                        Featuring razor-sharp peaks housing the arctic landscape. Perfect
+                        for your next postcard. <a href="#">view full blog...</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-container">
+        <p class="footer-copy">© 2025 Talking Travel. All Rights Reserved.</p>
+        <nav class="footer-nav">
+            <a href="#">Home</a>
+            <a href="#">Blog</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact Us</a>
+        </nav>
+    </div>
+</footer>
+
+
